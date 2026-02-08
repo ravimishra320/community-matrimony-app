@@ -1,1 +1,3 @@
-
+cd frontend
+npx expo install react-native-reanimated react-native-gesture-handler react-native-svg expo-linear-gradient
+npm install axios
