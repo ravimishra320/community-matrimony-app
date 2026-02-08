@@ -2,7 +2,7 @@ import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, View, Text } from 'react-native';
 import HomeFeedScreen from './src/screens/HomeFeedScreen';
 
-// --- THEME CONSTANTS  ---
+// --- THEME CONSTANTS  npx expo install react-native-reanimated react-native-gesture-handler react-native-svg expo-linear-gradient ---
 export const THEME = {
   primary: '#FFD700', // Saffron/Gold
   background: '#FFFFFF',
