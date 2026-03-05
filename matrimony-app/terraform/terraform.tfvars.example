@@ -1,0 +1,13 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and fill in your values
+
+aws_region = "us-east-1"
+environment = "dev"
+app_name = "matrimony-app"
+
+# Database credentials (use AWS Secrets Manager or environment variables in production)
+db_master_username = "dbadmin"
+db_master_password = "ChangeMe123!SecurePassword"
+
+# Network access
+allowed_cidr_blocks = ["0.0.0.0/0"]
